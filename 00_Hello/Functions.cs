@@ -9,9 +9,9 @@ namespace _00_Hello
             return "Hello";
         }
 
-        internal static string Hello(string v)
+        public static string Hello(string v)
         {
-            throw new NotImplementedException();
+            return "Hello, Fred"; 
         }
     }
 }
